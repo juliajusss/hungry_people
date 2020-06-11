@@ -1,0 +1,33 @@
+.about__container {
+    @include columns($width: 48%);
+
+}
+
+.about__content {
+    padding-top: 187px;
+}
+
+.about__title {
+    &::after {
+        margin-top: 8px;
+        margin-left: 60px;
+    }
+}
+
+.about__text {
+    width: 573px;
+}
+
+.about__images {
+    padding: 100px 0 0 51px;
+    position: relative;
+}
+
+.about__img {
+    width: 475px;
+    height: 475px;
+    margin-bottom: 100px;
+    background-image: url('../assets/img/about-img.png');
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}

@@ -1,0 +1,60 @@
+//Header
+
+.header__ico {
+   @extend %icon-basics; 
+}
+
+.header__ico_wheel {
+    position: absolute;
+    z-index: 3;
+    top: 25px;
+    left: 645px;
+    width: 150px;
+    height: 150px;
+    background-image: url('../assets/img/icons/wheel.svg');
+}
+
+//Start 
+
+.start__ico {
+    @extend %icon-basics; 
+    width: 60px;
+    height: 60px;
+    &_down {
+        margin-bottom: 83px;
+        background-image: url('../assets/img/icons/down-btn.svg');
+    }
+    &_fb {
+        background-image: url('../assets/img/icons/fb.svg');
+    }
+    &_tw {
+        margin: 20px 0;
+        background-image: url('../assets/img/icons/tw.svg');
+    }
+    &_inst {
+        background-image: url('../assets/img/icons/inst.svg');
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+//About
+
+.about__ico_square {
+    @extend %icon-basics;
+    @extend %icon-square; 
+    position: absolute;
+    top: 213px;
+    right: 20px;
+}
+
+//Team 
+
+.team__ico_square {
+    @extend %icon-basics;
+    @extend %icon-square; 
+    position: absolute;
+    top: 115px;
+    right: 350px;
+}
