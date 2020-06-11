@@ -1,0 +1,16 @@
+@mixin line ($width: 60px, $height: 5px) {
+    content: '';
+        display: block;
+        width: $width;
+        height: $height; 
+        background-color: $color-primary;
+        border-radius: 50px;
+}
+
+@mixin columns ($width) {
+    display: flex;
+    flex-wrap: wrap;
+    >* {
+        flex-basis: $width;
+    }
+}
