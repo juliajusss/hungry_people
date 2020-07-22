@@ -97,20 +97,25 @@
                 </div>
             </section>
 
-            <!-- <section class="section section__book">
+            <section class="section section__book">
                 <div class="container book__container">
                     <div class="book__content content">
-                        <div class="content_column">
+                        <div class="book__content_column">
                             <div class="book__title title">book a table</div>
                             <form action="" class="book__form">
                                 <div class="form__column">
-                                    <input type="text" placeholder="Name" class="form__input form__input_name">
-                                    <input type="tel" placeholder="Phone" class="form__input form__input_phone">
-                                    <input type="date" placeholder="Date(mm/dd)" class="form__input form__input_date">
+                                    <input type="text" placeholder="Name"
+                                        class="book__form_input form__input form__input_name">
+                                    <input type="tel" placeholder="Phone"
+                                        class="book__form_input form__input form__input_phone">
+                                    <input type="text" onfocus="(this.type='date')" placeholder="Date(mm/dd)"
+                                        class="book__form_input form__input form__input_date">
                                 </div>
                                 <div class="form__column">
-                                    <input type="email" placeholder="Email" class="form__input form__input_email">
-                                    <select class="form__input form__input_people">
+                                    <input type="email" placeholder="Email"
+                                        class="book__form_input form__input form__input_email">
+                                    <select class="book__form_input form__input form__input_people">
+                                        <option value="selected" selected disabled>People</option>
                                         <option value="one">1</option>
                                         <option value="two">2</option>
                                         <option value="three">3</option>
@@ -118,20 +123,46 @@
                                         <option value="five">5</option>
                                     </select>
                                     <input type="time" min="20:00" max="03:00" placeholder="Time"
-                                        class="form__input form__input_time">
+                                        class="book__form_input form__input form__input_time">
                                 </div>
                                 <button type="submit" class="button button_colored button_submit">BOOK NOW</button>
                             </form>
                         </div>
 
-                        <div class="content_column">
-                            <div class="book__image"></div>
-
+                        <div class="book__content_column book__images">
+                            <div class="book__img"></div>
+                            <div class="book__ico_square"></div>
                         </div>
+
+                        <div class="book__shedule">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131
+                            637/+40 726 458 782</div>
 
                     </div>
                 </div>
-            </section> -->
+            </section>
+
+            <section class="section section__specialties">
+                <div class="container specialties__container">
+                    <div class="specialties__header">specialties</div>
+                    <div class="specialties__main">
+                        <div class="specialties__images">
+                            <div class="specialties__img"></div>
+                            <div class="specialties__ico_square"></div>
+                        </div>
+                        <div class="specialties__content content">
+                            <h2 class="specialties__title title">chocolate pancakes</h2>
+                            <div class="specialties__text text">
+                                <p class="text_bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                                    velit maximus, molestie est a, tempor magna.</p>
+                                <p class="text_normal">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+                                    posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui
+                                    odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam
+                                    convallis pharetra. Nulla facilisis semper laoreet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 </body>

@@ -1,4 +1,4 @@
-@import './node_modules/normalize-scss/sass/_normalize.scss';
+@import "./node_modules/normalize-scss/sass/_normalize.scss";
 
 //Abstract
 @import "abstract/constants";
@@ -18,8 +18,9 @@
 @import "components/about";
 @import "components/content";
 @import "components/team";
+@import "components/book";
+@import "components/form";
+@import "components/specialties";
 
 //Layout
 @import "layout/overall";
-
-

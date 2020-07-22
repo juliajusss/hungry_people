@@ -1,7 +1,7 @@
 //Header
 
 .header__ico {
-   @extend %icon-basics; 
+    @extend %icon-basics;
 }
 
 .header__ico_wheel {
@@ -11,28 +11,28 @@
     left: 645px;
     width: 150px;
     height: 150px;
-    background-image: url('../assets/img/icons/wheel.svg');
+    background-image: url("../assets/img/icons/wheel.svg");
 }
 
-//Start 
+//Start
 
 .start__ico {
-    @extend %icon-basics; 
+    @extend %icon-basics;
     width: 60px;
     height: 60px;
     &_down {
         margin-bottom: 83px;
-        background-image: url('../assets/img/icons/down-btn.svg');
+        background-image: url("../assets/img/icons/down-btn.svg");
     }
     &_fb {
-        background-image: url('../assets/img/icons/fb.svg');
+        background-image: url("../assets/img/icons/fb.svg");
     }
     &_tw {
         margin: 20px 0;
-        background-image: url('../assets/img/icons/tw.svg');
+        background-image: url("../assets/img/icons/tw.svg");
     }
     &_inst {
-        background-image: url('../assets/img/icons/inst.svg');
+        background-image: url("../assets/img/icons/inst.svg");
     }
     &:hover {
         cursor: pointer;
@@ -43,18 +43,36 @@
 
 .about__ico_square {
     @extend %icon-basics;
-    @extend %icon-square; 
+    @extend %icon-square;
     position: absolute;
     top: 213px;
     right: 20px;
 }
 
-//Team 
+//Team
 
 .team__ico_square {
     @extend %icon-basics;
-    @extend %icon-square; 
+    @extend %icon-square;
     position: absolute;
     top: 115px;
     right: 350px;
+}
+
+//Book
+.book__ico_square {
+    @extend %icon-basics;
+    @extend %icon-square-small;
+    position: absolute;
+    top: 220px;
+    right: 0px;
+}
+
+//Specialties
+.specialties__ico_square {
+    @extend %icon-basics;
+    @extend %icon-square;
+    position: absolute;
+    top: 104px;
+    left: 0;
 }

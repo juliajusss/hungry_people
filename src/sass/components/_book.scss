@@ -1,0 +1,45 @@
+.book__content {
+    @include columns($width: 45%);
+    flex-direction: row;
+    &_column {
+        padding-left: 50px;
+        &:nth-child(1) {
+            align-self: flex-start;
+            padding-top: 160px;
+        }
+        &:nth-child(2) {
+            padding-top: 100px;
+            padding-left: 66px;
+        }
+    }
+}
+
+.book__title {
+    text-align: center;
+    &::after {
+        margin: 10px auto;
+    }
+}
+
+.book__form {
+    @include columns($width: 40%);
+}
+
+.book__images {
+    position: relative;
+}
+
+.book__img {
+    width: 475px;
+    height: 475px;
+    margin-bottom: 50px;
+    background-image: url("../assets/img/book.png");
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.book__shedule {
+    margin: 0 auto 38px;
+    @include font($line-height: 1.2rem, $font-size: 1.2rem, $font-weight: normal);
+    color: $color-form-text;
+}

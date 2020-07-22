@@ -3,12 +3,12 @@
 }
 
 .container {
-   max-width: 1441px;
-   padding: 0 80px;
+  max-width: 1441px;
+  padding: 0 80px;
 }
 
 .section__start {
-  background-image: url('../assets/img/header-bg.jpg');
+  background-image: url("../assets/img/header-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +19,14 @@
 }
 
 .section__team {
-  background-image: url('../assets/img/team-bg.png');
+  background-image: url("../assets/img/team-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section__specialties {
+  background-image: url("../assets/img/specialty-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

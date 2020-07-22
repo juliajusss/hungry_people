@@ -1,25 +1,24 @@
 @font-face {
-    font-family: 'Banny';
+    font-family: "Banny";
     src: url("../assets/fonts/Banny-Round.woff");
 }
 
 @font-face {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: normal;
     src: url("../assets/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: bold;
     src: url("../assets/fonts/OpenSans-Bold.ttf");
 }
 
-@mixin font ($font-family: 'Open Sans', $line-height: 1rem, $font-size: 1rem, $font-weight: bold) {
+@mixin font($font-family: "Open Sans", $line-height: 1rem, $font-size: 1rem, $font-weight: bold) {
     font-family: $font-family, sans-serif;
     font-style: normal;
     font-size: $font-size;
     line-height: $line-height;
     font-weight: $font-weight;
 }
-
