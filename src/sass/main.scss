@@ -12,6 +12,15 @@
 @import "base/icons";
 @import "base/links";
 
+//Layout
+@import "layout/overall";
+@import "layout/section";
+
+//Swiper
+@import "../../node_modules/swiper/swiper.scss";
+@import "../../node_modules/swiper/components/pagination/pagination.scss";
+@import "../../node_modules/swiper/components/navigation/navigation.scss";
+
 //Components
 @import "components/header";
 @import "components/start";
@@ -21,6 +30,4 @@
 @import "components/book";
 @import "components/form";
 @import "components/specialties";
-
-//Layout
-@import "layout/overall";
+@import "components/carousel";

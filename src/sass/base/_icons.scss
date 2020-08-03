@@ -6,7 +6,7 @@
 
 .header__ico_wheel {
     position: absolute;
-    z-index: 3;
+    z-index: 1;
     top: 25px;
     left: 645px;
     width: 150px;
@@ -39,40 +39,14 @@
     }
 }
 
-//About
-
-.about__ico_square {
+.section__ico_square {
     @extend %icon-basics;
     @extend %icon-square;
     position: absolute;
-    top: 213px;
-    right: 20px;
 }
 
-//Team
-
-.team__ico_square {
-    @extend %icon-basics;
-    @extend %icon-square;
-    position: absolute;
-    top: 115px;
-    right: 350px;
-}
-
-//Book
-.book__ico_square {
+.section__ico_square_small {
     @extend %icon-basics;
     @extend %icon-square-small;
     position: absolute;
-    top: 220px;
-    right: 0px;
-}
-
-//Specialties
-.specialties__ico_square {
-    @extend %icon-basics;
-    @extend %icon-square;
-    position: absolute;
-    top: 104px;
-    left: 0;
 }

@@ -48,39 +48,11 @@
             </section>
 
             <section class="section section__about">
-                <div class="container about__container">
-                    <div class="about__content content">
-                        <h2 class="about__title title">about us</h2>
-                        <div class="about__text text">
-                            <p class="text_bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-                                velit maximus, molestie est a, tempor magna.</p>
-                            <p class="text_normal">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
-                                posuere.
-                                Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula
-                                eros,
-                                a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra.
-                                Nulla
-                                facilisis semper laoreet.</p>
-                        </div>
-                    </div>
-                    <div class="about__images">
-                        <div class="about__img"></div>
-                        <div class="about__ico_square"></div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section section__team">
-                <div class="container team__container">
-                    <div class="team__header">OUR TEAM</div>
-                    <div class="team__main">
-                        <div class="team__images">
-                            <div class="team__img"></div>
-                            <div class="team__ico_square"></div>
-                        </div>
-                        <div class="team__content content">
-                            <h2 class="team__title title">MASTER CHEF</h2>
-                            <div class="team__text text">
+                <div class="container">
+                    <div class="section__layout">
+                        <div class="about__content content">
+                            <h2 class="about__title title">about us</h2>
+                            <div class="about__text text">
                                 <p class="text_bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
                                     velit maximus, molestie est a, tempor magna.</p>
                                 <p class="text_normal">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
@@ -93,14 +65,49 @@
                                     facilisis semper laoreet.</p>
                             </div>
                         </div>
+                        <div class="section__images about__images">
+                            <div class="section__img about__img"></div>
+                            <div class="section__ico_square about__ico"></div>
+                        </div>
                     </div>
                 </div>
             </section>
 
+            <section class="section section__team">
+                <div class="container">
+                    <div class="section__title">OUR TEAM</div>
+                    <div class="section__layout">
+                        <div class="section__images team__images">
+                            <div class="section__img team__img"></div>
+                            <div class="section__ico_square team__ico"></div>
+                        </div>
+                        <div class="team__content content">
+                            <h2 class="team__title title">MASTER CHEF</h2>
+                            <div class="team__text text">
+                                <p class="text_bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                                    at
+                                    velit maximus, molestie est a, tempor magna.</p>
+                                <p class="text_normal">Integer ullamcorper neque eu purus euismod, ac faucibus
+                                    mauris
+                                    posuere.
+                                    Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio
+                                    vehicula
+                                    eros,
+                                    a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis
+                                    pharetra.
+                                    Nulla
+                                    facilisis semper laoreet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
             <section class="section section__book">
                 <div class="container book__container">
-                    <div class="book__content content">
-                        <div class="book__content_column">
+                    <div class="section__layout book__layout">
+                        <div class="section__layout_column">
                             <div class="book__title title">book a table</div>
                             <form action="" class="book__form">
                                 <div class="form__column">
@@ -129,9 +136,9 @@
                             </form>
                         </div>
 
-                        <div class="book__content_column book__images">
-                            <div class="book__img"></div>
-                            <div class="book__ico_square"></div>
+                        <div class="section__layout_column section__images book__images">
+                            <div class="section__img book__img"></div>
+                            <div class="section__ico_square_small book__ico"></div>
                         </div>
 
                         <div class="book__shedule">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131
@@ -143,23 +150,123 @@
 
             <section class="section section__specialties">
                 <div class="container specialties__container">
-                    <div class="specialties__header">specialties</div>
-                    <div class="specialties__main">
-                        <div class="specialties__images">
-                            <div class="specialties__img"></div>
-                            <div class="specialties__ico_square"></div>
-                        </div>
-                        <div class="specialties__content content">
-                            <h2 class="specialties__title title">chocolate pancakes</h2>
-                            <div class="specialties__text text">
-                                <p class="text_bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-                                    velit maximus, molestie est a, tempor magna.</p>
-                                <p class="text_normal">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
-                                    posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui
-                                    odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam
-                                    convallis pharetra. Nulla facilisis semper laoreet.</p>
+                    <div class="section__title">specialties</div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+
+                            <div class="section__layout swiper-slide">
+                                <div class="section__images specialties__images">
+                                    <div class="section__img specialties__img"></div>
+                                    <div class="section__ico_square specialties__ico"></div>
+                                </div>
+                                <div class="specialties__content content">
+                                    <h2 class="specialties__title title">chocolate pancakes</h2>
+                                    <div class="specialties__text text">
+                                        <p class="text_bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Duis at
+                                            velit maximus, molestie est a, tempor magna.</p>
+                                        <p class="text_normal">Integer ullamcorper neque eu purus euismod, ac faucibus
+                                            mauris
+                                            posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
+                                            feugiat, dui
+                                            odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
+                                            feugiat diam
+                                            convallis pharetra. Nulla facilisis semper laoreet.</p>
+                                    </div>
+                                </div>
                             </div>
+
+                            <div class="section__layout swiper-slide">
+                                <div class="section__images specialties__images">
+                                    <div class="section__img specialties__img"></div>
+                                    <div class="section__ico_square specialties__ico"></div>
+                                </div>
+                                <div class="specialties__content content">
+                                    <h2 class="specialties__title title">chocolate pancakes</h2>
+                                    <div class="specialties__text text">
+                                        <p class="text_bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Duis at
+                                            velit maximus, molestie est a, tempor magna.</p>
+                                        <p class="text_normal">Integer ullamcorper neque eu purus euismod, ac faucibus
+                                            mauris
+                                            posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
+                                            feugiat, dui
+                                            odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
+                                            feugiat diam
+                                            convallis pharetra. Nulla facilisis semper laoreet.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section__layout swiper-slide">
+                                <div class="section__images specialties__images">
+                                    <div class="section__img specialties__img"></div>
+                                    <div class="section__ico_square specialties__ico"></div>
+                                </div>
+                                <div class="specialties__content content">
+                                    <h2 class="specialties__title title">chocolate pancakes</h2>
+                                    <div class="specialties__text text">
+                                        <p class="text_bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Duis at
+                                            velit maximus, molestie est a, tempor magna.</p>
+                                        <p class="text_normal">Integer ullamcorper neque eu purus euismod, ac faucibus
+                                            mauris
+                                            posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
+                                            feugiat, dui
+                                            odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
+                                            feugiat diam
+                                            convallis pharetra. Nulla facilisis semper laoreet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section__layout swiper-slide">
+                                <div class="section__images specialties__images">
+                                    <div class="section__img specialties__img"></div>
+                                    <div class="section__ico_square specialties__ico"></div>
+                                </div>
+                                <div class="specialties__content content">
+                                    <h2 class="specialties__title title">chocolate pancakes</h2>
+                                    <div class="specialties__text text">
+                                        <p class="text_bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Duis at
+                                            velit maximus, molestie est a, tempor magna.</p>
+                                        <p class="text_normal">Integer ullamcorper neque eu purus euismod, ac faucibus
+                                            mauris
+                                            posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
+                                            feugiat, dui
+                                            odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
+                                            feugiat diam
+                                            convallis pharetra. Nulla facilisis semper laoreet.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section__layout swiper-slide">
+                                <div class="section__images specialties__images">
+                                    <div class="section__img specialties__img"></div>
+                                    <div class="section__ico_square specialties__ico"></div>
+                                </div>
+                                <div class="specialties__content content">
+                                    <h2 class="specialties__title title">chocolate pancakes</h2>
+                                    <div class="specialties__text text">
+                                        <p class="text_bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Duis at
+                                            velit maximus, molestie est a, tempor magna.</p>
+                                        <p class="text_normal">Integer ullamcorper neque eu purus euismod, ac faucibus
+                                            mauris
+                                            posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
+                                            feugiat, dui
+                                            odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
+                                            feugiat diam
+                                            convallis pharetra. Nulla facilisis semper laoreet.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
                 </div>
             </section>

@@ -1,17 +1,5 @@
-.book__content {
-    @include columns($width: 45%);
+.book__layout {
     flex-direction: row;
-    &_column {
-        padding-left: 50px;
-        &:nth-child(1) {
-            align-self: flex-start;
-            padding-top: 160px;
-        }
-        &:nth-child(2) {
-            padding-top: 100px;
-            padding-left: 66px;
-        }
-    }
 }
 
 .book__title {
@@ -26,16 +14,15 @@
 }
 
 .book__images {
-    position: relative;
-}
-
-.book__img {
-    width: 475px;
-    height: 475px;
     margin-bottom: 50px;
-    background-image: url("../assets/img/book.png");
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+    position: relative;
+    .book__img {
+        background-image: url("../assets/img/book.png");
+    }
+    .book__ico {
+        top: 225px;
+        right: 0px;
+    }
 }
 
 .book__shedule {

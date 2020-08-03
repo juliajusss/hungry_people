@@ -1,0 +1,49 @@
+.section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    &__start {
+        background-image: url("../assets/img/header-bg.jpg");
+    }
+    &__about {
+        background-color: #fff;
+    }
+    &__team {
+        background-image: url("../assets/img/team-bg.png");
+    }
+    &__specialties {
+        background-image: url("../assets/img/specialty-bg.png");
+    }
+}
+
+.section__title {
+    @extend %letter-spacing-font;
+    text-align: center;
+    padding: 43px 0;
+}
+
+.section__layout {
+    @include columns($width: 45%);
+    &_column {
+        padding-left: 50px;
+        &:nth-child(1) {
+            align-self: flex-start;
+            padding-top: 160px;
+        }
+        &:nth-child(2) {
+            padding-top: 100px;
+        }
+    }
+}
+
+.section__images {
+    margin-bottom: 100px;
+    .section__img {
+        width: 475px;
+        height: 475px;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+    }
+}
