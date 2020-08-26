@@ -1,0 +1,30 @@
+.book__layout {
+    flex-direction: row;
+}
+
+.book__title {
+    text-align: center;
+    &::after {
+        margin: 1rem auto;
+    }
+}
+
+.book__form {
+    @include columns($width: 40%);
+}
+
+.book__images {
+    margin-bottom: 5rem;
+    position: relative;
+    .book__img {
+        background-image: url("../assets/img/book.png");
+    }
+    .book__ico {
+        top: 22.5rem;
+        right: 0px;
+    }
+}
+
+.book__information {
+    margin: 0 auto 3.8rem;
+}

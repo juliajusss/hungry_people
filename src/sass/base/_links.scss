@@ -1,21 +1,33 @@
 //Navigation
 
 .nav__link {
-    width: 133px;
-    @include font ($line-height: 1.8rem,  $font-size:  1.2rem);
+    width: 13rem;
+    @include font($line-height: 1.8rem, $font-size: 1.2rem);
     color: $color-light;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all .3s ease-out;
-        &:nth-child(4) {
-            margin-right: 110px;
-        }       
-        &:nth-child(5) {
-            margin-left: 110px;
-        }
+    transition: all 0.3s ease-out;
+    &:nth-child(4) {
+        margin-right: 11rem;
+    }
+    &:nth-child(5) {
+        margin-left: 11rem;
+    }
 
-        &:hover {
-            cursor: pointer;
-            text-decoration: underline;
-        }
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+//Menu
+
+.menu__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-menu;
+    @include font($line-height: 4.8rem, $font-size: 1.2rem);
+    &:hover {
+        text-decoration: underline;
+    }
 }

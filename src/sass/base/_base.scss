@@ -1,5 +1,6 @@
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -9,5 +10,19 @@ body {
 
 .section {
     // max-height: 100vh;
-    min-height: 600px;
+    min-height: 60rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.5);
+    @include font($line-height: 1.2rem, $font-size: 1.2rem, $font-weight: normal);
 }

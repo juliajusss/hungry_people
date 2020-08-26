@@ -1,0 +1,30 @@
+.form__input {
+    width: 27.7rem;
+    height: 6rem;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    background-color: $color-form;
+    @include font($line-height: 1.9rem, $font-size: 1.4rem, $font-weight: normal);
+    color: $color-form-text;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+// BOOK FORM
+.form__column {
+    margin-top: 1rem;
+    &:nth-child(2) {
+        margin-left: 1rem;
+    }
+}
+
+.form__input_people {
+    padding: 0 2rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.book__form_input {
+    margin-bottom: 1rem;
+}

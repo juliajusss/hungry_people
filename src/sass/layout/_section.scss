@@ -1,0 +1,58 @@
+.section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-color: #fff;
+    &__start {
+        background-image: url("../assets/img/header-bg.jpg");
+    }
+    &__team {
+        background-image: url("../assets/img/team-bg.png");
+    }
+    &__specialties {
+        background-image: url("../assets/img/specialty-bg.png");
+    }
+    &__events {
+        background-image: url("../assets/img/specialty-bg.png");
+    }
+}
+
+.section__title {
+    @extend %letter-spacing-font;
+    text-align: center;
+    padding: 4.3rem 0;
+}
+
+.section__layout {
+    @include columns($width: 45%);
+    &_column {
+        padding-left: 5rem;
+        &:nth-child(1) {
+            align-self: flex-start;
+            padding-top: 16rem;
+        }
+        &:nth-child(2) {
+            padding-top: 10rem;
+        }
+    }
+    &_events {
+        padding-left: 6rem;
+        justify-content: center;
+    }
+}
+
+.section__images {
+    margin-bottom: 10rem;
+    .section__img {
+        width: 47.5rem;
+        height: 47.5rem;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 0.5rem;
+    }
+}
+
+.section__menu {
+    padding-top: 7rem;
+}

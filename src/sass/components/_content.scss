@@ -5,7 +5,7 @@
 }
 
 .title {
-    @include font ($font-family: 'Banny', $font-size: 3.6rem, $line-height: 4.8rem);
+    @include font($font-family: "Banny", $font-size: 3.6rem, $line-height: 4.8rem);
     text-transform: uppercase;
     margin-bottom: 0;
     &::after {
@@ -16,9 +16,14 @@
 .text {
     text-align: center;
     &_bold {
-        @include font ($font-size: 1.8rem, $line-height: 2.8rem);
+        @include font($font-size: 1.8rem, $line-height: 2.8rem);
     }
     &_normal {
-        @include font ($font-size: 1.4rem, $line-height: 2.4rem, $font-weight: normal);
+        @include font($font-size: 1.4rem, $line-height: 2.4rem, $font-weight: normal);
     }
+}
+
+.information {
+    @include font($line-height: 1.2rem, $font-size: 1.2rem, $font-weight: normal);
+    color: $color-form-text;
 }

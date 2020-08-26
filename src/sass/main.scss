@@ -1,4 +1,4 @@
-@import './node_modules/normalize-scss/sass/_normalize.scss';
+@import "./node_modules/normalize-scss/sass/_normalize.scss";
 
 //Abstract
 @import "abstract/constants";
@@ -12,14 +12,26 @@
 @import "base/icons";
 @import "base/links";
 
+//Layout
+@import "layout/overall";
+@import "layout/section";
+
+//Swiper
+@import "../../node_modules/swiper/swiper.scss";
+@import "../../node_modules/swiper/components/pagination/pagination.scss";
+@import "../../node_modules/swiper/components/navigation/navigation.scss";
+
 //Components
 @import "components/header";
 @import "components/start";
 @import "components/about";
 @import "components/content";
 @import "components/team";
-
-//Layout
-@import "layout/overall";
-
-
+@import "components/book";
+@import "components/form";
+@import "components/specialties";
+@import "components/menu";
+@import "components/events";
+@import "components/photos";
+@import "components/contact";
+@import "components/map";

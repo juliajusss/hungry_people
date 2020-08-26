@@ -1,60 +1,61 @@
 //Header
 
 .header__ico {
-   @extend %icon-basics; 
+    @extend %icon-basics;
 }
 
 .header__ico_wheel {
     position: absolute;
-    z-index: 3;
-    top: 25px;
-    left: 645px;
-    width: 150px;
-    height: 150px;
-    background-image: url('../assets/img/icons/wheel.svg');
+    z-index: 1;
+    top: 2.5rem;
+    left: 64.5rem;
+    width: 15rem;
+    height: 15rem;
+    background-image: url("../assets/img/icons/wheel.svg");
 }
 
-//Start 
+//Start
 
 .start__ico {
-    @extend %icon-basics; 
-    width: 60px;
-    height: 60px;
+    @extend %icon-basics;
+    width: 6rem;
+    height: 6rem;
     &_down {
-        margin-bottom: 83px;
-        background-image: url('../assets/img/icons/down-btn.svg');
+        margin-bottom: 8.3rem;
+        background-image: url("../assets/img/icons/down-btn.svg");
     }
     &_fb {
-        background-image: url('../assets/img/icons/fb.svg');
+        background-image: url("../assets/img/icons/fb.svg");
     }
     &_tw {
-        margin: 20px 0;
-        background-image: url('../assets/img/icons/tw.svg');
+        margin: 2rem 0;
+        background-image: url("../assets/img/icons/tw.svg");
     }
     &_inst {
-        background-image: url('../assets/img/icons/inst.svg');
+        background-image: url("../assets/img/icons/inst.svg");
     }
     &:hover {
         cursor: pointer;
     }
 }
 
-//About
-
-.about__ico_square {
+.section__ico_square {
     @extend %icon-basics;
-    @extend %icon-square; 
+    @extend %icon-square;
     position: absolute;
-    top: 213px;
-    right: 20px;
 }
 
-//Team 
-
-.team__ico_square {
+.section__ico_square_small {
     @extend %icon-basics;
-    @extend %icon-square; 
+    @extend %icon-square-small;
     position: absolute;
-    top: 115px;
-    right: 350px;
+}
+
+//Contact
+
+.link__ico {
+    display: inline-block;
+    @include font($line-height: 1.4rem, $font-size: 1.4rem);
+    color: $color-primary;
+    margin-right: 0.7rem;
 }
