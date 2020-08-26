@@ -1,24 +1,24 @@
 .team__images {
     position: relative;
-    padding-left: 115px;
+    padding-left: 11.5rem;
     .team__img {
         background-image: url("../assets/img/chef.png");
     }
     .team__ico {
-        top: 115px;
+        top: 11.5rem;
         left: 0;
     }
 }
 
 .team__content {
     color: $color-light;
-    padding-top: 85px;
+    padding-top: 8.5rem;
     .team__title {
         &::after {
-            margin: 10px auto;
+            margin: 1rem auto;
         }
     }
     .team__text {
-        width: 573px;
+        width: 57.3rem;
     }
 }

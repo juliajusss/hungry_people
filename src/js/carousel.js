@@ -1,14 +1,11 @@
-import Swiper, { Navigation, Pagination } from 'swiper';
+import Swiper, { Pagination } from 'swiper';
 
-Swiper.use([Navigation, Pagination]);
+Swiper.use([Pagination]);
 export const mySwiper = new Swiper('.swiper-container', {
     direction: 'horizontal',
     loop: true,
     pagination: {
         el: '.swiper-pagination',
+        clickable: true,
     },
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    }
 })

@@ -1,0 +1,21 @@
+.photo__galerie {
+    display: flex;
+    flex-direction: row;
+}
+
+.photo {
+    width: 36rem;
+    height: 36rem;
+    &_1 {
+        background-image: url(../assets/img/p1.png);
+    }
+    &_2 {
+        background-image: url(../assets/img/p2.png);
+    }
+    &_3 {
+        background-image: url(../assets/img/p3.png);
+    }
+    &_4 {
+        background-image: url(../assets/img/p4.png);
+    }
+}

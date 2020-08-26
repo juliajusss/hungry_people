@@ -1,24 +1,24 @@
 .specialties__images {
     position: relative;
-    padding-left: 115px;
+    padding-left: 11.5rem;
     .specialties__img {
         background-image: url("../assets/img/pancake.png");
     }
     .specialties__ico {
-        top: 104px;
+        top: 10.4rem;
         left: 0;
     }
 }
 
 .specialties__content {
     color: $color-light;
-    padding-top: 85px;
+    padding-top: 8.5rem;
     .specialties__title {
         &::after {
-            margin: 8px auto;
+            margin: 0.8rem auto;
         }
     }
     .specialties__text {
-        width: 573px;
+        width: 57.3rem;
     }
 }

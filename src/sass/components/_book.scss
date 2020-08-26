@@ -5,7 +5,7 @@
 .book__title {
     text-align: center;
     &::after {
-        margin: 10px auto;
+        margin: 1rem auto;
     }
 }
 
@@ -14,19 +14,17 @@
 }
 
 .book__images {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     position: relative;
     .book__img {
         background-image: url("../assets/img/book.png");
     }
     .book__ico {
-        top: 225px;
+        top: 22.5rem;
         right: 0px;
     }
 }
 
-.book__shedule {
-    margin: 0 auto 38px;
-    @include font($line-height: 1.2rem, $font-size: 1.2rem, $font-weight: normal);
-    color: $color-form-text;
+.book__information {
+    margin: 0 auto 3.8rem;
 }

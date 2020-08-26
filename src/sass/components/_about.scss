@@ -1,24 +1,24 @@
 .about__content {
-    padding-top: 187px;
+    padding-top: 18.7rem;
     .about__title {
         &::after {
-            margin-top: 8px;
-            margin-left: 60px;
+            margin-top: 0.8rem;
+            margin-left: 6rem;
         }
     }
     .about__text {
-        width: 573px;
+        width: 57.3rem;
     }
 }
 
 .about__images {
     position: relative;
-    padding: 100px 0 0 100px;
+    padding: 10rem 0 0 10rem;
     .about__img {
         background-image: url("../assets/img/about-img.png");
     }
     .about__ico {
-        top: 213px;
+        top: 21.3rem;
         right: 0;
     }
 }

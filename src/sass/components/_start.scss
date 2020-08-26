@@ -1,25 +1,18 @@
-// .start__container {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-//     align-items: center;
-// }
-
 .start__schedule {
     //didn't manage how to do it better
     display: block;
     position: absolute;
-    left: -36px;
-    top: 444px;
+    left: -3.6rem;
+    top: 44.4rem;
     //
-    @include font ($font-size: 1.2rem, $line-height: 1.2rem);
+    @include font($font-size: 1.2rem, $line-height: 1.2rem);
     color: $color-light;
     text-align: center;
     transform: rotate(-90deg);
 }
 
 .start__content {
-    padding-top: 318px;
+    padding-top: 31.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,31 +23,29 @@
 }
 
 .start__logo {
-    margin-top: 54px;
-    margin-bottom: 30px;
-    @include font ($font-family: 'Banny', $font-size: 9.6rem, $line-height: 0, $font-weight: normal);
+    margin-top: 5.4rem;
+    margin-bottom: 3rem;
+    @include font($font-family: "Banny", $font-size: 9.6rem, $line-height: 0, $font-weight: normal);
     color: $color-light;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
     &::after {
-        @include line ($height: 5.11px);
-        margin-left: 356px;
-        margin-top: 70px;
-        height: 5.11px; 
+        @include line($height: 5.11px);
+        margin-left: 35.6rem;
+        margin-top: 7rem;
+        height: 5.11px;
     }
 }
 
 .start__buttons {
-    margin-bottom: 82px;
+    margin-bottom: 8.2rem;
 }
 
 .start__social {
-    //make up smth  better!!!
     position: absolute;
-    top: 342px;
-    left: 1300px;
+    top: 70%;
+    right: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
