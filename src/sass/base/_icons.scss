@@ -12,6 +12,11 @@
     width: 15rem;
     height: 15rem;
     background-image: url("../assets/img/icons/wheel.svg");
+    transition: all 0.6s linear;
+
+    &:hover {
+        transform: rotate(180deg);
+    }
 }
 
 //Start
@@ -20,22 +25,30 @@
     @extend %icon-basics;
     width: 6rem;
     height: 6rem;
+    border-radius: 50%;
+    transition: all 0.3s ease-out;
+
     &_down {
         margin-bottom: 8.3rem;
         background-image: url("../assets/img/icons/down-btn.svg");
     }
+
     &_fb {
         background-image: url("../assets/img/icons/fb.svg");
     }
+
     &_tw {
         margin: 2rem 0;
         background-image: url("../assets/img/icons/tw.svg");
     }
+
     &_inst {
         background-image: url("../assets/img/icons/inst.svg");
     }
+
     &:hover {
         cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.2);
     }
 }
 

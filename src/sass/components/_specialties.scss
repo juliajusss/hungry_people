@@ -1,9 +1,21 @@
 .specialties__images {
     position: relative;
     padding-left: 11.5rem;
+
     .specialties__img {
-        background-image: url("../assets/img/pancake.png");
+        &_1 {
+            background-image: url("../assets/img/pancake.png");
+        }
+
+        &_2 {
+            background-image: url("../assets/img/waffles.jpg");
+        }
+
+        &_3 {
+            background-image: url("../assets/img/ice-cream.jpg");
+        }
     }
+
     .specialties__ico {
         top: 10.4rem;
         left: 0;
@@ -13,11 +25,13 @@
 .specialties__content {
     color: $color-light;
     padding-top: 8.5rem;
+
     .specialties__title {
         &::after {
             margin: 0.8rem auto;
         }
     }
+
     .specialties__text {
         width: 57.3rem;
     }
