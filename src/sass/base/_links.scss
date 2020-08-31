@@ -22,12 +22,16 @@
 
 //Menu
 
-.menu__link {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: $color-menu;
-    @include font($line-height: 4.8rem, $font-size: 1.2rem);
-    &:hover {
-        text-decoration: underline;
-    }
-}
+// .menu__link {
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     color: $color-menu;
+//     @include font($line-height: 4.8rem, $font-size: 1.2rem);
+//     &:hover {
+//         text-decoration: underline;
+//         cursor: pointer;
+//     }
+//     .active {
+//         text-decoration: underline;
+//     }
+// }
